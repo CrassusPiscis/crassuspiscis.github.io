@@ -3,3 +3,6 @@ site_name: Сайт-портфолио Артура Петровича
 nav:
   - Home: index.md
   - About: about.md
+
+theme:
+  name: dracula
