@@ -1,1 +1,12 @@
-site_name: My Docs
+site_name: Сайт-портфолио Артура Петровича
+
+nav:
+  'Главная': index.md
+  'Обо мне': author.md
+  'Лабораторные работы':
+    'Лабораторная работа 1': labwork1.md
+    'Лабораторная работа 2': labwork2.md
+    'Лабораторная работа 3': labwork3.md
+
+theme:
+  name: material
