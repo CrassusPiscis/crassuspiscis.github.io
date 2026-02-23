@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# Артур Петрович
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Студент первого курса факультета Программной инженерии и компьютерных технологий
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## О сайте
 
-## Project layout
+Это мое портфолио, где собраны лабораторные работы и проекты.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Здесь вы можете узнать:
+- обо мне
+- моих навыках
+- выполненных работах
+- возможностях сотрудничества
+
+---
+
+## Разделы
+
+**[Обо мне](author.md)** — информация об образовании и технических навыках  
+**[Лабораторные работы](labwork.md)** — выполненные задания по курсу  
+**[Сотрудничество](cooperate.md)** — контакты для связи
