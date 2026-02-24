@@ -10,6 +10,7 @@ nav:
     - 'Лабораторная работа 6': labwork6.md
     - 'Лабораторная работа 7': labwork7.md
 
+site_dir: ../docs
 
 theme:
   name: material
