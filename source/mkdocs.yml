@@ -10,6 +10,52 @@ nav:
     - 'Лабораторная работа 5': labwork5.md
     - 'Лабораторная работа 6': labwork6.md
     - 'Лабораторная работа 7': labwork7.md
-
 theme:
   name: material
+  font: false
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.expand
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    # Светлая тема (серый минимум)
+    - scheme: default
+      primary: grey
+      accent: blue grey
+      toggle:
+        icon: material/weather-sunny
+        name: Переключить на тёмную тему
+    # Тёмная тема (технологичный хай-тек)
+    - scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Переключить на светлую тему
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CrassusPiscis
+      name: GitHub
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/NetNeobhodimocti
+      name: Telegram
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+extra_css:
+  - stylesheets/extra.css
