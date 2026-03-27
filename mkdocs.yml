@@ -7,13 +7,13 @@ nav:
   - 'Сотрудничество': cooperate.md
   - 'Лабораторные работы':
     - 'Лабораторные работы 1 семестра':
-      - 'Все работы 1 семестра': semester1\labworks1.md
-      - 'Лабораторная работа 5': semester1\sem1labwork5.md
-      - 'Лабораторная работа 6': semester1\sem1labwork6.md
-      - 'Лабораторная работа 7': semester1\sem1labwork7.md
+      - 'Все работы 1 семестра': semester1/labworks1.md
+      - 'Лабораторная работа 5': semester1/sem1labwork5.md
+      - 'Лабораторная работа 6': semester1/sem1labwork6.md
+      - 'Лабораторная работа 7': semester1/sem1labwork7.md
     - 'Лабораторные работы 2 семестра':
-      - 'Все работы 2 семестра': semester2\labworks2.md
-      - 'Лабораторная работа 2': semester2\sem2labwork2.md
+      - 'Все работы 2 семестра': semester2/labworks2.md
+      - 'Лабораторная работа 2': semester2/sem2labwork2.md
 theme:
   name: material
   font: false
