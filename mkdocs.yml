@@ -15,6 +15,7 @@ nav:
       - 'Все работы 2 семестра': semester2/labworks2.md
       - 'Лабораторная работа 2': semester2/sem2labwork2.md
       - 'Лабораторная работа 4': semester2/sem2labwork4.md
+      - 'Лабораторная работа 5': semester2/sem2labwork5.md
 theme:
   name: material
   font: false
