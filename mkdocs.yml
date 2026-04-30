@@ -18,6 +18,7 @@ nav:
       - 'Лабораторная работа 5': semester2/sem2labwork5.md
       - 'Лабораторная работа 6': semester2/sem2labwork6.md
       - 'Лабораторная работа 7': semester2/sem2labwork7.md
+      - 'Лабораторная работа 8': semester2/sem2labwork8.md
 theme:
   name: material
   font: false
