@@ -1,0 +1,79 @@
+
+.md-top {
+  position: fixed !important;
+  bottom: 2rem !important;
+  right: 2rem !important;
+  top: auto !important;
+  left: auto !important;
+  z-index: 10;
+
+
+  background-color: #37474F !important;
+  color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+  padding: 0.6rem 1rem !important;
+  font-size: 0.8rem !important;
+  transition: all 0.2s ease !important;
+}
+
+
+.md-top:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2) !important;
+  background-color: #455A64 !important;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .md-top {
+    bottom: 1rem !important;
+    right: 1rem !important;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+body, input, .md-typeset {
+    font-family: 'SF Pro Display', 'SF Mono', monospace !important;
+}
+
+:root {
+  --md-primary-fg-color: #37474F;
+  --md-primary-fg-color--light: #546E7A;
+  --md-primary-fg-color--dark: #263238;
+  --md-accent-fg-color: #607D8B;
+}
+
+
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.grid.cards > * {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.2rem;
+  transition: all 0.2s ease;
+  background: var(--md-default-bg-color);
+}
+
+.grid.cards > *:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-color: var(--md-primary-fg-color);
+}
+
+.highlight {
+  border-radius: 8px;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #455A64;
+  --md-primary-fg-color--light: #607D8B;
+  --md-primary-fg-color--dark: #37474F;
+}
+
+[data-md-color-scheme="slate"] .grid.cards > * {
+  border-color: #37474F;
+}
